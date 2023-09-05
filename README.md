@@ -27,4 +27,20 @@
 * The parameters to be set for these algorithms are chosen with the help of **hyper-parameter tuning** (refer [hyppara_tune.py](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/hyppara_tune.py)).
 * In order to check if data is overfitting or underfitting, baseline predicitons are where mean and median of testing dataset are compared with testing predictions scores of the model, the model here shows a significant differences between them, ensuring that data is not underfitting or overfitting.
 
-![combined_ASPUS_AUTHNOTTSA_0](.\images\combined_ASPUS_AUTHNOTTSA_0.png "combined_ASPUS_AUTHNOTTSA_0")![combined_COMPUTSA_EOFFMARUSQ176N_1](images/combined_COMPUTSA_EOFFMARUSQ176N_1.png "combined_COMPUTSA_EOFFMARUSQ176N_1")![combined_EVACANTUSQ176N_HOUST_2](images/combined_EVACANTUSQ176N_HOUST_2.png "combined_EVACANTUSQ176N_HOUST_2")![combined_INTDSRUSM193N_LFWA25TTUSM647S_3](images/combined_INTDSRUSM193N_LFWA25TTUSM647S_3.png "combined_INTDSRUSM193N_LFWA25TTUSM647S_3")![combined_LREM25TTUSM156S_LRUN64TTUSM156S_4](images/combined_LREM25TTUSM156S_LRUN64TTUSM156S_4.png "combined_LREM25TTUSM156S_LRUN64TTUSM156S_4")![combined_MNMFS_MORTGAGE30US_5](images/combined_MNMFS_MORTGAGE30US_5.png "combined_MNMFS_MORTGAGE30US_5")![combined_MSACSR_NHSDPTS_6](images/combined_MSACSR_NHSDPTS_6.png "combined_MSACSR_NHSDPTS_6")![combined_PERMIT_RHVRUSQ156N_7](images/combined_PERMIT_RHVRUSQ156N_7.png "combined_PERMIT_RHVRUSQ156N_7")![combined_UMCSENT_UNDCONTSA_9](images/combined_UMCSENT_UNDCONTSA_9.png "combined_UMCSENT_UNDCONTSA_9")
+### Data Visualizations
+
+![combined_ASPUS_AUTHNOTTSA_0](.\images\combined_ASPUS_AUTHNOTTSA_0.png "combined_ASPUS_AUTHNOTTSA_0")
+
+* Plot-1 shows home price index comparison with Average Sales Price of Houses sold in US, it clearly shows that both of these parameters go hand-in-hand because prices are directly related.
+* Plot-2 shows home price index vs New-Privately owned housing units but not yet started wrt to construction. This graph shows prices of homes increase with increase in number of housing units, a typical behavior similar to above case, as housing units increase, prices also increase.
+
+![combined_COMPUTSA_EOFFMARUSQ176N_1](images/combined_COMPUTSA_EOFFMARUSQ176N_1.png "combined_COMPUTSA_EOFFMARUSQ176N_1")
+
+* Plot-1 above shows that initially supply of housing units was huge, but prices were low, maybe due to affordability of houses during the time, but both supply of housing units and prices declined to very low because of recession during 2007-08 period. But the market gradually picked up and later prices are enormous because of low supply of houses and also affordability of people increased.
+* Plot-2 above shows a sort of indirect relationship between home price index and vacant units held off the market. This relationship clearly shows that when vacant units increased, prices are low, this is because people do not want to occupy houses and since there is less demand, but more supply, an indirect relationship so as above.
+
+![combined_EVACANTUSQ176N_HOUST_2](images/combined_EVACANTUSQ176N_HOUST_2.png "combined_EVACANTUSQ176N_HOUST_2")
+
+* 
+
+![combined_INTDSRUSM193N_LFWA25TTUSM647S_3](images/combined_INTDSRUSM193N_LFWA25TTUSM647S_3.png "combined_INTDSRUSM193N_LFWA25TTUSM647S_3")![combined_LREM25TTUSM156S_LRUN64TTUSM156S_4](images/combined_LREM25TTUSM156S_LRUN64TTUSM156S_4.png "combined_LREM25TTUSM156S_LRUN64TTUSM156S_4")![combined_MNMFS_MORTGAGE30US_5](images/combined_MNMFS_MORTGAGE30US_5.png "combined_MNMFS_MORTGAGE30US_5")![combined_MSACSR_NHSDPTS_6](images/combined_MSACSR_NHSDPTS_6.png "combined_MSACSR_NHSDPTS_6")![combined_PERMIT_RHVRUSQ156N_7](images/combined_PERMIT_RHVRUSQ156N_7.png "combined_PERMIT_RHVRUSQ156N_7")![combined_UMCSENT_UNDCONTSA_9](images/combined_UMCSENT_UNDCONTSA_9.png "combined_UMCSENT_UNDCONTSA_9")
