@@ -140,18 +140,14 @@ for model_name, model in models.items():
 best_model = min(results, key=results.get)
 best_model_instance = models[best_model]
 
-
 best_model_instance.fit(X_train, y_train)
-
 
 predictions = best_model_instance.predict(X_test)
 mse = mean_squared_error(y_test, predictions)
 
-
 print("Model Selection Results:")
 for model, mse_score in results.items():
-    print(f"{model}: MSE={mse_score}")
-    
+    print(f"{model}: MSE={mse_score}")  
 
 print(f"\nBest Model: {best_model}")
 print(f"Best Model MSE on Testing Set: {mse}")
