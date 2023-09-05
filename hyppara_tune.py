@@ -7,7 +7,7 @@ from sklearn.svm import SVR
 from sklearn.neural_network import MLPRegressor
 from sklearn.metrics import mean_squared_error
 
-df = pd.read_csv('norm.csv')
+df = pd.read_csv('normalized_data.csv')
 df.set_index("DATE", inplace=True)
 
 features = df.columns.tolist()

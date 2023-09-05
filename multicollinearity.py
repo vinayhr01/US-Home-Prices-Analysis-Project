@@ -6,7 +6,7 @@ import statsmodels.api as sm
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 # Load your dataset
-data = pd.read_csv('norm.csv')
+data = pd.read_csv('normalized_data.csv')
 
 data['DATE'] = pd.to_datetime(data['DATE'])
 data.set_index('DATE', inplace=True)
