@@ -1,9 +1,6 @@
-# Delete similar factors based on their meaning, correlation values and variance inflation values considered above 300
+Delete similar factors based on their meaning, correlation values and variance inflation values considered above 300
 
-import pandas as pd
-
-'''
-The correlation values are with respect to S&P/Case-Shiller home price index provided to consider.
+The correlation values are with respect to S&P/Case-Shiller home price index.
 
 Similar factors can lead to multicollinearity hence dropping them is good.
 
@@ -65,6 +62,3 @@ Similar factors can lead to multicollinearity hence dropping them is good.
     ESALEUSQ176N,-0.720321468253932,Housing Inventory Estimate: Vacant Housing Units for Sale in the United States
     Dropping: Yes, Both
     Reason: Variance inflation (means increase in the variance of the estimated coefficients in a regression model when the predictor variables in the model are correlated with each other)
-
-'''
-

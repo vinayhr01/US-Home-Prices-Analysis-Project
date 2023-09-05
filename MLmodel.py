@@ -40,9 +40,10 @@ df.set_index('DATE', inplace=True)
 features = df.columns.tolist()
 
 for column in features:
-    df[column] = pd.to_numeric(df[column], errors='coerce')
+    df[column] = pd.to_numeric(df[column], errors='coerce') # preprocessing data to numeric form
 
 z_scores = stats.zscore(df) # z_scores determine how far a data point is from the mean of that data in terms of standard deviation, given by Z = (X - mean) / std. deviation, positive Z-score means data point is above the mean.
+
 df_no_outliers = df[(z_scores < 3).all(axis=1)] # handling outliers, if any gets eliminated considering a threshold of 3 standard deviations from the mean for every data point
 
 # Feature scaling using StandardScaler
@@ -111,7 +112,7 @@ for i in range(0, len(os.listdir('./single_images')) - 1, 2):
 
 shutil.rmtree('./single_images')
 
-scaled_df.to_csv('norm.csv')
+scaled_df.to_csv('normalized_data.csv')
 
 features = [feature for feature in features if feature != 'CSUSHPISA']
 
