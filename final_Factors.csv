@@ -1,0 +1,22 @@
+Factors,Correlation,Description
+ASPUS,0.9552809697423016,Average Sales Price of Houses Sold for the United States
+AUTHNOTTSA,0.7905317055317204,New Privately-Owned Housing Units Authorized but Not Started: Total Units
+COMPUTSA,0.2884645159778716,New Privately-Owned Housing Units Completed: Total Units
+CSUSHPISA,1.0,S&P/Case-Shiller U.S. National Home Price Index
+EOFFMARUSQ176N,0.1247908514570002,Housing Inventory Estimate: Vacant Housing Units Held Off the Market in the United States
+EVACANTUSQ176N,-0.6183619122160284,Housing Inventory Estimate: Vacant Housing Units in the United States
+HOUST,0.3375860333143655,New Privately-Owned Housing Units Started: Total Units
+INTDSRUSM193N,0.0937778170836905,"Interest Rates, Discount Rate for United States"
+LFWA25TTUSM647S,0.7966487000487664,Working Age Population: Aged 25-54: All Persons for the United States
+LREM25TTUSM156S,0.4221924849974826,Employment Rate: Aged 25-54: All Persons for the United States
+LRUN64TTUSM156S,-0.532962542615867,Unemployment Rate: Aged 15-64: All Persons for the United States
+MNMFS,-0.4595557963311568,Median Number of Months on Sales Market for Newly Completed Homes
+MORTGAGE30US,-0.0951475883312886,30-Year Fixed Rate Mortgage Average in the United States
+MSACSR,0.165603717131844,Monthly Supply of New Houses in the United States
+NHSDPTS,0.127644271087494,"New Houses Sold by Stage of Construction, Total"
+PERMIT,0.3661281496228185,New Privately-Owned Housing Units Authorized in Permit-Issuing Places: Total Units
+RHVRUSQ156N,-0.7558314374147439,Homeowner Vacancy Rate in the United States
+RRVRUSQ156N,-0.7516936242482503,Rental Vacancy Rate in the United States
+TTLCONS,0.98175036826635,Total Construction Spending: Total Construction in the United States
+UMCSENT,-0.1816538077457816,University of Michigan: Consumer Sentiment
+UNDCONTSA,0.7683056559591177,New Privately-Owned Housing Units Under Construction: Total Units

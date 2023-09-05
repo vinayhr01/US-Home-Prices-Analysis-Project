@@ -1,0 +1,35 @@
+Factors,Correlation,Description
+ASPNHSUS,0.9568657646197397,Average Sales Price for New Houses Sold in the United States
+ASPUS,0.9552809697423017,Average Sales Price of Houses Sold for the United States
+AUTHNOTTSA,0.7905317055317204,New Privately-Owned Housing Units Authorized but Not Started: Total Units
+COMPUTSA,0.2884645159778716,New Privately-Owned Housing Units Completed: Total Units
+CSUSHPISA,0.9999999999999999,S&P/Case-Shiller U.S. National Home Price Index
+EOFFMARUSQ176N,0.12479085145700028,Housing Inventory Estimate: Vacant Housing Units Held Off the Market in the United States
+ERENTUSQ176N,-0.7869195412854356,Housing Inventory Estimate: Vacant Housing Units for Rent in the United States
+ESALEUSQ176N,-0.720321468253932,Housing Inventory Estimate: Vacant Housing Units for Sale in the United States
+EVACANTUSQ176N,-0.6183619122160284,Housing Inventory Estimate: Vacant Housing Units in the United States
+GDP,0.8762967604361418,GDP
+HOUST,0.33758603331436554,New Privately-Owned Housing Units Started: Total Units
+HSN1F,0.12764427108749404,New One Family Houses Sold: United States
+INTDSRUSM193N,0.09377781708369053,"Interest Rates, Discount Rate for United States"
+LFWA25TTUSM647S,0.7966487000487664,Working Age Population: Aged 25-54: All Persons for the United States
+LFWA64TTUSM647S,0.5935544320312797,Working Age Population: Aged 15-64: All Persons for the United States
+LREM25TTUSM156S,0.42219248499748263,Employment Rate: Aged 25-54: All Persons for the United States
+LREM64TTUSM156S,0.33958423623202244,Employment Rate: Aged 15-64: All Persons for the United States
+LRUN64TTUSM156S,-0.532962542615867,Unemployment Rate: Aged 15-64: All Persons for the United States
+MNMFS,-0.45955579633115684,Median Number of Months on Sales Market for Newly Completed Homes
+MORTGAGE30US,-0.09514758833128864,30-Year Fixed Rate Mortgage Average in the United States
+MSACSR,0.16560371713184402,Monthly Supply of New Houses in the United States
+MSPNHSUS,0.9443162575317311,Median Sales Price for New Houses Sold in the United States
+MSPUS,0.9434858709531735,Median Sales Price of Houses Sold for the United States
+NHFSEPCS,-0.2550396914571141,"New Houses for Sale by Stage of Construction, Completed"
+NHFSEPUCS,0.5499136840549724,"New Houses for Sale by Stage of Construction, Under Construction"
+NHSDPTS,0.12764427108749404,"New Houses Sold by Stage of Construction, Total"
+NHSUSSPT,0.12394150169087681,"New Houses Sold by Sales Price in the United States, Total"
+PERMIT,0.36612814962281853,New Privately-Owned Housing Units Authorized in Permit-Issuing Places: Total Units
+RHVRUSQ156N,-0.7558314374147439,Homeowner Vacancy Rate in the United States
+RRVRUSQ156N,-0.7516936242482503,Rental Vacancy Rate in the United States
+TLRESCONS,0.8952767341669163,Total Construction Spending: Residential in the United States
+TTLCONS,0.9817503682663499,Total Construction Spending: Total Construction in the United States
+UMCSENT,-0.18165380774578163,University of Michigan: Consumer Sentiment
+UNDCONTSA,0.7683056559591177,New Privately-Owned Housing Units Under Construction: Total Units
