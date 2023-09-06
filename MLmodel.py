@@ -53,6 +53,8 @@ scaled_data = scaler.fit_transform(df_no_outliers)
 # Convert scaled_data back to a DataFrame with column names
 scaled_df = pd.DataFrame(scaled_data, columns=df_no_outliers.columns, index=df_no_outliers.index)
 
+scaled_df.to_csv('normalized_data.csv')
+
 df1 = pd.read_csv('final_Factors.csv')
 df1 = df1[df1['Factors'] != 'CSUSHPISA']
 df1.reset_index(inplace=True)
@@ -111,8 +113,6 @@ for i in range(0, len(os.listdir('./single_images')) - 1, 2):
     combined_image.save(os.path.join('./images', f"combined_{name1}_{name2}_{i // 2}.png"))
 
 shutil.rmtree('./single_images')
-
-scaled_df.to_csv('normalized_data.csv')
 
 features = [feature for feature in features if feature != 'CSUSHPISA']
 

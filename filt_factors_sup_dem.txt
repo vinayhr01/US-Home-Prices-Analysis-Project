@@ -144,17 +144,36 @@ Deleting factors:
         Dropping: Yes, Both
         Reason: Variance inflation (means increase in the variance of the estimated coefficients in a regression model when the predictor variables in the model are correlated with each other)
 
+        BELOW FACTORS REMOVED BASED ON VISUALIZATION OF DATA
+
+    10) Factor: 
+         EOFFMARUSQ176N,0.1247908514570002,Housing Inventory Estimate: Vacant Housing Units Held Off the Market in the United States ---> Total Vacant Units considered.
+         
+         HOUST,0.3375860333143655,New Privately-Owned Housing Units Started: Total Units ---> People do not prefer in construction units because they might think of quality issues.
+         
+         LFWA25TTUSM647S,0.7966487000487664,Working Age Population: Aged 25-54: All Persons for the United States ---> Employment is important for people if they have to buy homes.
+         
+         COMPUTSA,0.2884645159778716,New Privately-Owned Housing Units Completed: Total Units ---> Similar to stage of construction.
+         
+         LRUN64TTUSM156S,-0.532962542615867,Unemployment Rate: Aged 15-64: All Persons for the United States ---> Employment Rate considered.
+         
+         RRVRUSQ156N,-0.7516936242482503,Rental Vacancy Rate in the United States ---> Rental prices not required.
+
+         UNDCONTSA,0.7683056559591177,New Privately-Owned Housing Units Under Construction: Total Units ---> Stage of construction considered.
+
+
+         
+         Dropping : Yes, Both
+         Reason: Visualization had similar factors considered
+
 Factors considered after filtering:
 
 ASPUS,0.9552809697423016,Average Sales Price of Houses Sold for the United States
 AUTHNOTTSA,0.7905317055317204,New Privately-Owned Housing Units Authorized but Not Started: Total Units
 COMPUTSA,0.2884645159778716,New Privately-Owned Housing Units Completed: Total Units
 CSUSHPISA,1.0,S&P/Case-Shiller U.S. National Home Price Index
-EOFFMARUSQ176N,0.1247908514570002,Housing Inventory Estimate: Vacant Housing Units Held Off the Market in the United States
 EVACANTUSQ176N,-0.6183619122160284,Housing Inventory Estimate: Vacant Housing Units in the United States
-HOUST,0.3375860333143655,New Privately-Owned Housing Units Started: Total Units
 INTDSRUSM193N,0.0937778170836905,"Interest Rates, Discount Rate for United States"
-LFWA25TTUSM647S,0.7966487000487664,Working Age Population: Aged 25-54: All Persons for the United States
 LREM25TTUSM156S,0.4221924849974826,Employment Rate: Aged 25-54: All Persons for the United States
 LRUN64TTUSM156S,-0.532962542615867,Unemployment Rate: Aged 15-64: All Persons for the United States
 MNMFS,-0.4595557963311568,Median Number of Months on Sales Market for Newly Completed Homes
