@@ -77,7 +77,7 @@
 * This shows monthly supply of houses to the market. It can be clearly seen during recession period 2008-09 similar plot can be seen as that of above factor.
 * But later even when the houses supply was moderate the prices were exponentially growing.
 
-##### 6) NHSDPTS, New Houses Sold by Stage of Construction, Total:
+##### 5) NHSDPTS, New Houses Sold by Stage of Construction, Total:
 
 ###### Visualization:
 
@@ -89,7 +89,7 @@
 * Due to recession, houses probably stopped being constructed at same pace as that of initial case, but then again it gradually picked up.
 * Recently prices have been exponential because of limited supply, but more demand.
 
-##### 7) PERMIT, New Privately-Owned Housing Units Authorized in Permit-Issuing Places: Total Units:
+##### 6) PERMIT, New Privately-Owned Housing Units Authorized in Permit-Issuing Places: Total Units:
 
 ###### Visualization:
 
@@ -108,3 +108,64 @@
 ![ASPUS.png](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/images/ASPUS.png "ASPUS.png")
 
 **Explanation:**
+
+* Since Average prices of houses are directly related to home price index, they almost go hand-in-hand for all quarters of the year.
+
+##### 2) INTDSRUSM193N, Interest Rates, Discount Rate for United States:
+
+###### Visualization:
+
+![INTDSRUSM193N.png](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/images/INTDSRUSM193N.png "INTDSRUSM193N.png")
+
+**Explanation:**
+
+* This factor is having indirect relationship with home price index. This basically indicates that, if interest rates are low, then more people tend to buy homes irrespective of tenure of the home loan.
+* This fact can be significantly observed in above image.
+* This loan need not be a mortgage loan, because people can submit any other valuables like gold, car, etc. as collateral for loan purpose and hence it is necessary to consider this factor.
+
+##### 3) LREM25TTUSM156S, Employment Rate: Aged 25-54: All Persons for the United States:
+
+###### Visualization:
+
+![LREM25TTUSM156S.png](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/images/LREM25TTUSM156S.png "LREM25TTUSM156S.png")
+
+**Explanation:**
+
+* Until an exponential growth in home price index is observed in above image, both Employment Rate and home price index go with each other in trends, which shows in case of recession time period as well.
+* But during exponential growth home price index values are more than employment rate values even though they might be growing at the same pace.
+* Hence, it can thought as people getting employed to specifically achieve building homes in their career.
+
+##### 4) MORTGAGE30US, 30-Year Fixed Rate Mortgage Average in the United States:
+
+###### Visualization:
+
+![MORTGAGE30US.png](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/images/MORTGAGE30US.png "MORTGAGE30US.png")
+
+**Explanation:**
+
+* Mortgage is where the loan is taken on something and is pledged as collateral. Typically home loans happen to be mortgage loans and its rate plays a significant role.
+* Initially mortgage rates are pretty high when compared to home prices and this might be due to less demand in housing, but mortgage rates almost had little fluctuations later, resulting in people investing in homes maybe due to its stability, thereby increasing home prices.
+* There can be a decline seen in mortgage and this is when home prices started growing exponentially. But then a gradual fluctuation can be seen in both mortgage and home prices as well.
+
+##### 5) TTLCONS, Total Construction Spending: Total Construction in the United States:
+
+###### Visualization:
+
+![TTLCONS.png](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/images/TTLCONS.png "TTLCONS.png")
+
+**Explanation:**
+
+* Total construction spending includes construction of all types of infrastructure like schools, hospitals, etc. which are necessary concerns before deciding upon location of home for any person.
+* Therefore home prices and this factor go hand-in-hand because demand for homes automatically increases when there are such facilities around a home location which can be clearly seen in above image.
+
+##### 6) UMCSENT, University of Michigan: Consumer Sentiment:
+
+###### Visualization:
+
+![UMCSENT.png](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/images/UMCSENT.png "UMCSENT.png")
+
+**Explanation:**
+
+* This measures the level of confidence and sentiment among U.S. consumers regarding the state of the economy, in this case it is about home prices growth over the years and its future. Typically involves showing if they have the confidence to invest and if it is possible for them.
+* The plot image shows intially that as home prices went up, consumers had confidence that it might go up more. Similarly, when it started dropping due to recession during 2008-09, confidence started reducing,  and fear of investing started.
+* Then similar to that of initial phase happened. But when prices started growing exponentially, confidence drastically decreased probably due to the difficulty in investing because of sky-rocketting prices.
