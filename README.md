@@ -31,6 +31,6 @@
 
 ### Supply Factors:
 
-##### AUTHNOTTSA, New Privately-Owned Housing Units Authorized but Not Started: Total Units:
+##### 1) AUTHNOTTSA, New Privately-Owned Housing Units Authorized but Not Started: Total Units:
 
 ###### Visualization:
