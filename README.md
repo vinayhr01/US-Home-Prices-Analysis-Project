@@ -29,7 +29,7 @@
 
 ## Key Supply-Demand factors that impacted US home prices over the last 20 years
 
-### Supply Factors:
+## Supply Factors:
 
 ##### 1) AUTHNOTTSA, New Privately-Owned Housing Units Authorized but Not Started: Total Units:
 
@@ -99,7 +99,7 @@
 
 * This also holds similar explanation to other factors mentioned above and almost similar to 1st factor mentioned in this list.
 
-### Demand Factors:
+## Demand Factors:
 
 ##### 1) ASPUS, Average Sales Price of Houses Sold for the United States:
 
