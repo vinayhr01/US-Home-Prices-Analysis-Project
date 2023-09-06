@@ -37,7 +37,7 @@
 
 ![AUTHNOTTSA.png](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/images/AUTHNOTTSA.png "AUTHNOTTSA.png")
 
-**Explanation:** 
+**Explanation:**
 
 * Initially authorized housing units were more and hence prices were lower. But later a recession during 2008-09 hit the market, hence both prices and housing units both declined.
 * Once the recession period ended gradually market started to go up hand-in-hand, i.e, prices and authorized housing units inclined drastically.
@@ -65,3 +65,46 @@
 * This factor shows how many months typically a housing unit could be present in the market before going on sale.
 * During recession 2008-09 period houses were more in market as people could not purchase due to lack of funds and hence to keep business going at a certain pace, prices were reduced which can be clearly seen.
 * Then housing units starting selling fast and hence costs went exponentially up.
+
+##### 4) MSACSR, Monthly Supply of New Houses in the United States:
+
+###### Visualization:
+
+![MSACSR.png](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/images/MSACSR.png "MSACSR.png")
+
+**Explanation:**
+
+* This shows monthly supply of houses to the market. It can be clearly seen during recession period 2008-09 similar plot can be seen as that of above factor.
+* But later even when the houses supply was moderate the prices were exponentially growing.
+
+##### 6) NHSDPTS, New Houses Sold by Stage of Construction, Total:
+
+###### Visualization:
+
+![NHSDPTS.png](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/images/NHSDPTS.png "NHSDPTS.png")
+
+**Explanation:**
+
+* Initially there are a lot of homes which are partially, completely or not constructed at all. The prices gradually for all these homes started increasing gradually.
+* Due to recession, houses probably stopped being constructed at same pace as that of initial case, but then again it gradually picked up.
+* Recently prices have been exponential because of limited supply, but more demand.
+
+##### 7) PERMIT, New Privately-Owned Housing Units Authorized in Permit-Issuing Places: Total Units:
+
+###### Visualization:
+
+![PERMIT.png](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/images/PERMIT.png "PERMIT.png")
+
+**Explanation:**
+
+* This also holds similar explanation to other factors mentioned above and almost similar to 1st factor mentioned in this list.
+
+### Demand Factors:
+
+##### 1) ASPUS, Average Sales Price of Houses Sold for the United States:
+
+###### Visualization:
+
+![ASPUS.png](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/images/ASPUS.png "ASPUS.png")
+
+**Explanation:**
