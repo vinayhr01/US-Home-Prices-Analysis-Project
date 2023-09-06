@@ -34,3 +34,34 @@
 ##### 1) AUTHNOTTSA, New Privately-Owned Housing Units Authorized but Not Started: Total Units:
 
 ###### Visualization:
+
+![AUTHNOTTSA.png](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/images/AUTHNOTTSA.png "AUTHNOTTSA.png")
+
+**Explanation:** 
+
+* Initially authorized housing units were more and hence prices were lower. But later a recession during 2008-09 hit the market, hence both prices and housing units both declined.
+* Once the recession period ended gradually market started to go up hand-in-hand, i.e, prices and authorized housing units inclined drastically.
+
+##### 2) EVACANTUSQ176N, Housing Inventory Estimate: Vacant Housing Units in the United States:
+
+###### Visualization:
+
+![EVACANTUSQ176N.png](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/images/EVACANTUSQ176N.png "EVACANTUSQ176N.png")
+
+**Explanation:**
+
+* Similar to above phenomena, initially both vacant housing units and prices started to increase.
+* But then on, it started with an indirect relationship from recession period. That is, due to recession period, the vacant housing units started to increase as people could not afford the prices and hence housing prices took a hit and was reduced.
+* But the market gradually went up, and recently there is a change in the trend where there are less housing units and demand is more and hence prices have exponentially shook up.
+
+##### 3) MNMFS, Median Number of Months on Sales Market for Newly Completed Homes:
+
+###### Visualization:
+
+![MNMFS.png](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/images/MNMFS.png "MNMFS.png")
+
+**Explanation:**
+
+* This factor shows how many months typically a housing unit could be present in the market before going on sale.
+* During recession 2008-09 period houses were more in market as people could not purchase due to lack of funds and hence to keep business going at a certain pace, prices were reduced which can be clearly seen.
+* Then housing units starting selling fast and hence costs went exponentially up.
