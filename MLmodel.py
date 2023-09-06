@@ -88,11 +88,11 @@ X_train, X_test, y_train, y_test = train_test_split(scaled_df[features], scaled_
 
 
 models = {
-    'Linear Regression': LinearRegression(fit_intercept=True, n_jobs=1),#fit_intercept=True chosen based on file hyppara_tun.py determining hyper parameter tuning for LR
-    'Decision Tree': DecisionTreeRegressor(max_depth=None, max_features=20, min_samples_split=2, min_samples_leaf=1, max_leaf_nodes=30),
-    'Random Forest': RandomForestRegressor(max_depth=None, max_features=10, max_leaf_nodes=10, min_samples_split=2, n_estimators=50),
-    'Support Vector Regression': SVR(C=0.1, gamma='scale', kernel='poly'),
-    'Neural Network': MLPRegressor(activation='relu', alpha=0.01, hidden_layer_sizes=(50,50))
+    'Linear Regression': LinearRegression(fit_intercept=False, n_jobs=1),#fit_intercept=False chosen based on file hyppara_tun.py determining hyper parameter tuning for LR
+    'Decision Tree': DecisionTreeRegressor(max_depth=None, max_features=20, min_samples_split=2, min_samples_leaf=1, max_leaf_nodes=20),
+    'Random Forest': RandomForestRegressor(max_depth=None, max_features=20, max_leaf_nodes=10, min_samples_split=5, n_estimators=50),
+    'Support Vector Regression': SVR(C=1, gamma='scale', kernel='linear'),
+    'Neural Network': MLPRegressor(activation='relu', alpha=0.001, hidden_layer_sizes=(100,50))
 }
 
 # Taking best values of parameters to reduce mean error using hyper parameter tuning
