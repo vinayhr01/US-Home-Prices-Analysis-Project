@@ -15,7 +15,7 @@
 * Then found the correlation of all factors with respect to [S&amp;P/Case-Shiller U.S. National Home Price Index](https://fred.stlouisfed.org/series/CSUSHPISA#).
 * Based on high correlation values and meaning of the factors, first filtering of a few factors were done and then variance inflation method was applied to further remove factors (refer [multicollinearity.py](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/multicollinearity.py)) thus helping in reducing multicollinearity problem which could arise due to highly correlated predictor and target (refer [delsimfactors.txt](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/delsimfactors.txt) file for factors removal) and then studying the visualizations, few more factors were removed.
 
-### ML Model building
+### ML Model building (refer [MLmodel.py](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/MLmodel.py))
 
 * Initially all values are converted to their appropriate numeric values in the dataset after filtering certain factors based on the above mentioned criteria (refer [final_merged_data.csv](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/final_merged_data.csv) for CSV file) and similarly factors manipulated are updated in another CSV file (refer [final_Factors.csv](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/final_Factors.csv)).
 * Then preprocessing of data must be done, such removing outliers from dataset, normalizing the values, because of different types of measured values in the dataset.
@@ -26,6 +26,59 @@
 * 5 different ML algorithms and best algorithm producing the least **Mean Squared Error** are chosen to build the model.
 * The parameters to be set for these algorithms are chosen with the help of **hyper-parameter tuning** (refer [hyppara_tune.py](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/hyppara_tune.py)).
 * In order to check if data is overfitting or underfitting, baseline predicitons are where mean and median of testing dataset are compared with testing predictions scores of the model, the model here shows a significant differences between them, ensuring that data is not underfitting or overfitting.
+
+##### Output of [MLmodel.py](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/MLmodel.py):
+
+```python
+
+Model Selection Results:
+Linear Regression: MSE=0.0006451218056336729
+Decision Tree: MSE=0.0018410043858620852
+Random Forest: MSE=0.0018212124506623707
+Support Vector Regression: MSE=0.0037079110120884335
+Neural Network: MSE=0.01319636741605933
+
+Best Model: Linear Regression
+Best Model MSE on Testing Set: 0.0003829208452818698
+R-squared score of best model which is Linear Regression: 0.9911849332606538
+Coefficients:
+ASPUS: 0.4148879389886434
+AUTHNOTTSA: 0.2210033163350893
+EVACANTUSQ176N: 0.010610063604748296
+INTDSRUSM193N: 0.09218535556846609
+LREM25TTUSM156S: -0.06184443701871081
+MNMFS: 0.09456106592805907
+MORTGAGE30US: 0.003937550597917033
+MSACSR: -0.0998451662055551
+NHSDPTS: -0.07090445944322575
+PERMIT: -0.04657622158691578
+TTLCONS: 0.5507564741657598
+UMCSENT: -0.06364990823095039
+Mean Baseline MSE: 0.05030244958144488
+Median Baseline MSE: 0.044228623407922926
+Best Model MSE on Testing Set: 0.0003829208452818698
+Comparison between baseline and testing set significance difference indicates no overfitting or underfitting of data
+```
+
+##### Output of [multicollinearity.py](https://github.com/vinayhr01/US-Home-Prices-Analysis-Project/blob/main/multicollinearity.py):
+
+```
+           Variable         VIF
+0             const  154.691378
+1             ASPUS   62.574384
+2        AUTHNOTTSA   57.598123
+3         CSUSHPISA  190.360847
+4    EVACANTUSQ176N   11.017423
+5     INTDSRUSM193N    6.581329
+6   LREM25TTUSM156S    7.126870
+7             MNMFS    7.224983
+8      MORTGAGE30US    7.161540
+9            MSACSR   13.100957
+10          NHSDPTS   44.478776
+11           PERMIT   49.708237
+12          TTLCONS   83.725831
+13          UMCSENT    4.951726
+```
 
 ## Key Supply-Demand factors that impacted US home prices over the last 20 years
 
